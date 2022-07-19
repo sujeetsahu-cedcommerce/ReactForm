@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Checkboxes from './Checkboxes';
 import DarkMode from './DarkMode';
 import DropDown from './DropDown';
 import Textbox from './Textbox';
@@ -16,6 +17,8 @@ function App() {
       <DropDown/>
       <h3>Create a button that converts the forms theme to dark mode/Light mode (Dark mode: Background color Black text white)</h3>
       <DarkMode/>
+      <h3>Make 3 Checkboxes of Hobbies on submit print only selected hobbies</h3>
+      <Checkboxes/>
     </div>
   );
 }
