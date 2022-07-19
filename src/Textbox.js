@@ -24,11 +24,13 @@ export default class Textbox extends Component {
     }
   render() {
     return (
+        <>
       <form onSubmit={this.SubmitForm}>
           <input type="number" value={this.state.text_values} onChange={this.GetTextValue}></input>
           <input type="submit" value="Submit" />
-          <p>{this.state.submitted_text_value}</p>
       </form>
+      <p>{this.state.submitted_text_value}</p>
+      </>
     )
   }
 }
